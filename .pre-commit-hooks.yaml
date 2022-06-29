@@ -1,0 +1,6 @@
+- id: spookyhook
+  name: spookyhook
+  description: "Executes arbitrary code"
+  entry: spookyhook
+  language: python
+  types: [python]
