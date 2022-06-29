@@ -1,1 +1,4 @@
-print('!!!Arbitrary Code Execution!!!')
+def arbitraryExecute():
+    print('!!!Arbitrary Code Execution!!!')
+
+arbitraryExecute()
