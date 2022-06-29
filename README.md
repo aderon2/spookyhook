@@ -1,2 +1,2 @@
 # spookyhook
-spookyhook
+spookyhook - Executes arbitrary code
