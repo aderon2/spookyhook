@@ -3,10 +3,7 @@ Spookyhook is a proof of concept git hook for use with pre-commit (www.pre-commi
 
 
 ## How to Use
-1. Install pre-commit on the victim system:
-```
-pre-commit install
-```
+1. [Install pre-commit on the victim system](https://pre-commit.com/#installation)
 2. Create a repo
 3. Add a file called .pre-commit-config.yaml with the following content and commit:
 ```
