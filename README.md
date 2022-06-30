@@ -1,5 +1,5 @@
 # spookyhook
-Spookyhook is a proof of concept git hook for use with pre-commit (www.pre-commit.com) that demonstrates that if write access to a git repo is compromised and that repo uses pre-commit, an attacker can perform arbitrary code execution on end users' systems when they attempt to perform a commit on that repo.
+Spookyhook is a proof of concept git hook for use with [pre-commit](www.pre-commit.com) that demonstrates that if write access to a git repo is compromised and that repo uses pre-commit, an attacker can perform arbitrary code execution on end users' systems when they attempt to perform a commit on that repo.
 
 
 ## How to Use
