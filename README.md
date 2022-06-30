@@ -3,7 +3,7 @@ Spookyhook is a proof of concept git hook for use with [pre-commit](www.pre-comm
 
 
 ## How to Use
-1. [Install pre-commit on the victim system](https://pre-commit.com/#installation)
+1. Prerequisite: [The victim system needs to have pre-commit installed on it.](https://pre-commit.com/#installation)
 2. Create a repo
 3. Add a file called .pre-commit-config.yaml with the following content and commit:
 ```
@@ -18,3 +18,7 @@ repos:
 pre-commit install
 ```
 5. As an example of arbitrary code being executed, any future commits on that repo by that end user will cause a timestamped file to be created in that directory.
+
+
+## Attack Scenario
+Write access to a repo that uses pre-commit is compromised.  Attacker modifies .pre-commit-config.yaml to point towards a malicious hook (such as spookyhook).  As part of their normal process, the victim uses pre-commit to install the git hooks specified by the repository in .pre-commit-config.yaml.  End user makes a commit.  Arbitrary code execution occurs.
