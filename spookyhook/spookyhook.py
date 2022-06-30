@@ -8,5 +8,3 @@ def arbitraryExecute():
             file.write(getpass.getuser())
         except:
             file.write('Unable to determine user')
-
-arbitraryExecute()
