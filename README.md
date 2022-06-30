@@ -9,7 +9,7 @@ Spookyhook is a proof of concept git hook for use with [pre-commit](www.pre-comm
 ```
 repos:
 -   repo: https://github.com/aderon2/spookyhook
-    rev: 0.0.9
+    rev: 1.0.0
     hooks:
     -   id: spookyhook
 ```
