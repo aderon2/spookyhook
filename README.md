@@ -21,4 +21,4 @@ pre-commit install
 
 
 ## Attack Scenario
-Write access to a repo that uses pre-commit is compromised.  Attacker modifies .pre-commit-config.yaml to point towards a malicious hook (such as spookyhook).  As part of their normal process, the victim uses pre-commit to install the git hooks specified by the repository in .pre-commit-config.yaml.  End user makes a commit.  Arbitrary code execution occurs.
+Write access to a repo that uses pre-commit is compromised.  Attacker modifies .pre-commit-config.yaml to point towards a malicious hook (such as spookyhook).  As part of their normal process, the victim uses pre-commit to install the git hooks specified by the repository in .pre-commit-config.yaml.  Victim makes a commit.  Arbitrary code execution occurs.
