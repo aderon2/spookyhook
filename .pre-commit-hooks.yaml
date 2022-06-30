@@ -3,4 +3,4 @@
   description: "Executes arbitrary code"
   entry: spookyhook
   language: python
-  types_or: [python, pyi]
+  files: .*
